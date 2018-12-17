@@ -1,0 +1,80 @@
+/******Tag selectors******/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 7rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+/******Class selectors******/
+.footer-link {
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {}
+
+.bottom-container {}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 300px;
+  height: 70px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 40px;
+  height: 70px;
+}
+
+.hands-image {
+  height: 150px;
+}
+
+.skill-row {
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.webdev-image {
+  width: 25%;
+  float: left;
+}
+.powershell-image {
+  width: 40%;
+  float: left;
+}
+.world-image {
+  width: 15%;
+}
+
+
+/******Id selectors******/
