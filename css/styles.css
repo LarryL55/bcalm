@@ -1,4 +1,8 @@
 /******Tag selectors******/
+a:hover {
+  color: #EAF6F6;
+}
+
 body {
   margin: 0;
   text-align: center;
@@ -24,26 +28,86 @@ h3 {
   color: #11999E;
 }
 
+hr {
+  border-left: none;
+  border-top: none;
+  border-bottom: 9px dotted #EAF6F6;
+  width: 4%;
+  padding-bottom: 10px;
+  margin: 100px auto 100px;
+}
+
 /******Class selectors******/
+.butn {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  text-shadow: 0 1px 3px #666666;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #11999E;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #11999E, #66BFBF);
+  background-image: -moz-linear-gradient(top, #11999E, #66BFBF);
+  background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
+  background-image: -o-linear-gradient(top, #11999E, #66BFBF);
+  background-image: linear-gradient(to bottom, #11999E, #66BFBF);
+  text-decoration: none;
+}
+
+.contact-me {
+  margin-bottom: 100px;
+}
+
+.decript {
+  color: #40514E;
+  width: 30%;
+}
+
 .footer-link {
   color: #11999E;
 }
 
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #E4F6F6;
   padding-top: 100px;
   position: relative;
 }
 
 .middle-container {}
 
-.bottom-container {}
+.bottom-container {
+  margin-top: 100px;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
 
 .bottom-cloud {
   position: absolute;
   left: 500px;
   bottom: 300px;
   height: 70px;
+}
+
+.copyright-text {
+  padding-top: 30px;
+  color: #EAF6f6;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  color: #11999E;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
 }
 
 .top-cloud {
@@ -59,22 +123,27 @@ h3 {
 
 .skill-row {
   width: 50%;
-  margin:100px auto 100px auto;
+  margin: 50px auto 110px auto;
   text-align: left;
   line-height: 2;
 }
 
-.webdev-image {
+.webdev-image1 {
   width: 25%;
   float: left;
-}
-.powershell-image {
-  width: 40%;
-  float: left;
-}
-.world-image {
-  width: 15%;
+  margin-right: 25px;
 }
 
+.webdev-image2 {
+  width: 25%;
+  float: left;
+  margin-right: 25px;
+}
+
+.world-image {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 15%;
+}
 
 /******Id selectors******/
